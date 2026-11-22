@@ -6,8 +6,6 @@ Proyecto académico de la asignatura **Gestión de Proyectos de Datos**, orienta
 
 Desarrollar y comparar modelos de **clasificación binaria** que predigan la presencia (`target = 1`) o ausencia (`target = 0`) de enfermedad cardíaca, priorizando el *recall* de la clase positiva para reducir los falsos negativos.
 
-Las predicciones no equivalen automáticamente a estimaciones clínicamente calibradas de riesgo cardiovascular futuro ni a categorías de riesgo bajo, medio y alto.
-
 Los algoritmos implementados son **Árbol de Decisión** y **Random Forest**, con selección del modelo a partir de sus métricas de evaluación.
 
 ## Estructura del repositorio
@@ -26,8 +24,6 @@ Los algoritmos implementados son **Árbol de Decisión** y **Random Forest**, co
 ├── requirements.txt          # Dependencias para ejecutar el notebook
 └── README.md
 ```
-
-Las carpetas `docs/`, `modelos/` y `src/` forman parte de la estructura del proyecto; su presencia no implica que existan implementaciones operativas en ellas.
 
 ## Requisitos de software
 
